@@ -1,0 +1,102 @@
+[
+    {
+      "id": "6053cfaada142cfa1f1b6ab8",
+      "nombre": "Juan",
+      "apellido": "Alfonso",
+      "email": "aljuan03@gmail.com",
+      "dni": 38667086,
+      "domicilio": "Buenos Aires 123",
+      "lat": "-34.5997",
+      "lng": "-58.3819",
+      "fechaIngreso": "2010-12-31",
+      "datosAcceso": [
+                      { "name": "Lunes", "value": 2 },
+                      { "name": "Martes", "value": 8 },
+                      { "name": "Miercoles", "value": 19 },
+                      { "name": "Jueves", "value": 10 },
+                      { "name": "Viernes", "value": 18 },
+                      { "name": "Sabado", "value": 6 },
+                      { "name": "Domingo", "value": 3 }
+                    ]
+    },
+    {
+      "id": "6053cfaa4d2d49beddf9ea4b",
+      "nombre": "Sofia",
+      "apellido": "Navia",
+      "email": "navia_so@gmail.com",
+      "dni": 39697976,
+      "domicilio": "Alta Gracia 2258",
+      "lat": "-27.4833",
+      "lng": "-58.8167",
+      "fechaIngreso": "2017-10-01",
+      "datosAcceso": [
+                      { "name": "Lunes", "value": 19 },
+                      { "name": "Martes", "value": 10 },
+                      { "name": "Miercoles", "value": 7 },
+                      { "name": "Jueves", "value": 10 },
+                      { "name": "Viernes", "value": 8 },
+                      { "name": "Sabado", "value": 3 },
+                      { "name": "Domingo", "value": 13 }
+                    ]       
+    },
+    {
+      "id": "6053cfaa66beaba595702919",
+      "nombre": "Francisco",
+      "apellido": "Villalva",
+      "email": "villalva99@gmail.com",
+      "dni": 31986484,
+      "domicilio": "San Martín 2345",
+      "lat": "-33.0806",
+      "lng": "-68.4706",
+      "fechaIngreso": "2009-03-21",
+      "datosAcceso": [
+                      { "name": "Lunes", "value": 12 },
+                      { "name": "Martes", "value": 9 },
+                      { "name": "Miercoles", "value": 2 },
+                      { "name": "Jueves", "value": 10 },
+                      { "name": "Viernes", "value": 15 },
+                      { "name": "Sabado", "value": 6 },
+                      { "name": "Domingo", "value": 13 }
+                    ] 
+    },
+    {
+      "id": "6053cfaa912e96a0b85ab7f5",
+      "nombre": "Jose",
+      "apellido": "Villanueva",
+      "email": "the_jv@gmail.com",
+      "dni": 37217908,
+      "domicilio": "San Francisco 5678",
+      "lat": "-31.4356",
+      "lng": "-62.0714",
+      "fechaIngreso": "2011-08-12",
+      "datosAcceso": [
+                      { "name": "Lunes", "value": 7 },
+                      { "name": "Martes", "value": 18 },
+                      { "name": "Miercoles", "value": 4 },
+                      { "name": "Jueves", "value": 11 },
+                      { "name": "Viernes", "value": 8 },
+                      { "name": "Sabado", "value": 8 },
+                      { "name": "Domingo", "value": 5 }
+                    ] 
+    },
+    {
+      "id": "6053cfaa308d31af5e0eb26f",
+      "nombre": "Elba",
+      "apellido": "Lopez",
+      "email": "lopelz@gmail.com",
+      "dni": 37222636,
+      "domicilio": "Puerto Deseado 23",
+      "lat": "-47.7500",
+      "lng": "-65.9167",
+      "fechaIngreso": "2017-10-25",
+      "datosAcceso": [
+                      { "name": "Lunes", "value": 9 },
+                      { "name": "Martes", "value": 7 },
+                      { "name": "Miercoles", "value": 12 },
+                      { "name": "Jueves", "value": 15 },
+                      { "name": "Viernes", "value": 11 },
+                      { "name": "Sabado", "value": 8 },
+                      { "name": "Domingo", "value": 13 }
+                    ]
+    }
+]
