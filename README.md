@@ -26,12 +26,12 @@ El proyecto esta desarrollado con [React](https://reactjs.org/) en el lado del c
     Esto me permite comunicarme bidireccionalmente en tiempo real con el cliente, y así mediante la librería os-utils poder enviar la información capturada del cpu y memoria en tiempo real hacia el cliente, y poder graficar dicha información. 
 
 ### Json:
-    Para los datos de los usuarios fue necesario mockear los datos necesarios y poder utilizarlos en el proyecto. Por ello se creo un archivo **userData.json**
+    Para los datos de los usuarios fue necesario mockear los datos necesarios y poder utilizarlos en el proyecto. Por ello se creo un archivo userData.json.
 
 ## Credenciales para Login
     Para poder acceder y probar el sistema se creo un usuario por default.
-    **Usuario:** diegol@wispro.com
-    **Pass:** admin
+### Usuario: diegol@wispro.com
+### Pass: admin
 
 ## Requerimientos
 - Generar un login de usuario con sus correspondientes credenciales.
