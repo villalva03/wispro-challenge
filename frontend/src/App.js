@@ -47,9 +47,12 @@ function App() {
   const openModalCharts = () => {setModalCharts(true)};
   
   //Delete User
-  const deleteUser = (id) => {
-    setUsers(users.filter(user => user.id !== id));
-    setCaseType('Global');
+  const deleteUser = (idUser) => {
+    const optionDelete = window.confirm("Esta seguro que desea elminar este usuario?");
+    if (optionDelete) {
+      setUsers(users.filter(user => user.id !== idUser));
+      setCaseType('Global');
+    } 
   }
 
   //Edit User

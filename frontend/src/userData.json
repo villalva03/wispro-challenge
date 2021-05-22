@@ -20,6 +20,26 @@
                     ]
     },
     {
+      "id": "6053ffaqda164ctm1f1b6ab8",
+      "nombre": "Fabian",
+      "apellido": "Rosi",
+      "email": "rosiFab12@gmail.com",
+      "dni": 31245786,
+      "domicilio": "Viedma 5678",
+      "lat": "-40.8000",
+      "lng": "-63.0000",
+      "fechaIngreso": "2021-02-25",
+      "datosAcceso": [
+                      { "name": "Lunes", "value": 10 },
+                      { "name": "Martes", "value": 8 },
+                      { "name": "Miercoles", "value": 14 },
+                      { "name": "Jueves", "value": 11 },
+                      { "name": "Viernes", "value": 9 },
+                      { "name": "Sabado", "value": 6 },
+                      { "name": "Domingo", "value": 7 }
+                    ]
+    },
+    {
       "id": "6053cfaa4d2d49beddf9ea4b",
       "nombre": "Sofia",
       "apellido": "Navia",

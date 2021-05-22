@@ -27,40 +27,40 @@ const EditUser = ({ currentUser, modalEdit, closeModalEdit, updateUser, ...props
             <ModalHeader>Editar Usuario</ModalHeader>
             <ModalBody>
             
-            <form onSubmit={handleSubmit(onSubmit)}>
-                <div>
+            <form className="row col-12" onSubmit={handleSubmit(onSubmit)}>
+                <div className="col-6 mb-3">
                     <label>Nombre</label>
-                    <input type="text" name="nombre" {...register('nombre', { required: true })}
+                    <input className="form-control" type="text" name="nombre" {...register('nombre', { required: true })}
                     />
             
                     {errors.nombre && (<span className='text-danger'>Este campo es requerido</span>)}
                 </div>
-                <div>
+                <div className="col-6 mb-3">
                     <label>Apellido</label>
-                    <input type="text" name="apellido" {...register('apellido', { required: true })}
+                    <input className="form-control" type="text" name="apellido" {...register('apellido', { required: true })}
                     />
             
                     {errors.apellido && (<span className='text-danger'>Este campo es requerido</span>)}
                 </div>
-                <div>
+                <div className="col-6 mb-3">
                     <label>Dni</label>
-                    <input type="number" name="dni" {...register('dni', { required: true })}
+                    <input className="form-control" type="number" name="dni" {...register('dni', { required: true })}
                     />
             
                     {errors.dni && (<span className='text-danger'>Este campo es requerido</span>)}
                 </div>
 
-                <div>
+                <div className="col-6 mb-3">
                     <label>Domicilio</label>
-                    <input type="text" name="domicilio" {...register('domicilio', { required: true })}
+                    <input className="form-control" type="text" name="domicilio" {...register('domicilio', { required: true })}
                     />
             
                     {errors.domicilio && (<span className='text-danger'>Este campo es requerido</span>)}
                 </div>
                 
-                <div className='position-absolute start-50'>
-                    <button className='btn btn-primary btn-lg me-4' type="submit">Editar</button>
-                    <button type='button' className='btn btn-primary btn-lg' onClick={closeModalEdit}>Cancelar</button>
+                <div>
+                    <button type='button' className='btn btn-primary btn-lg mt-4 float-end' onClick={closeModalEdit}>Cancelar</button>
+                    <button className='btn btn-primary btn-lg mt-4 me-3 float-end' type="submit">Editar</button>
                 </div>
             </form>
             

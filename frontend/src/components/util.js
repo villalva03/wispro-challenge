@@ -64,3 +64,30 @@ export const filterName = (users, selectUser, editRow, openModalCharts, deleteUs
                 </tr>        
     )
 )
+
+//Table users
+export const table = (users, selectUser, editRow, openModalCharts, deleteUser, chartsUser) => (
+    users.length > 0 ? (
+        users.map(user => { return (
+                <tr key={user.id}>
+                    <td onClick={()=>selectUser(user)}>{user.nombre}</td>
+                    <td onClick={()=>selectUser(user)}>{user.apellido}</td>
+                    <td onClick={()=>selectUser(user)}>{user.dni}</td>
+                    <td onClick={()=>selectUser(user)}>{user.domicilio}</td>
+                    <td onClick={()=>selectUser(user)}>{user.email}</td>
+                    <td onClick={()=>selectUser(user)}>{user.fechaIngreso}</td>
+                    <td>
+                        <div className="btn-group" role="group" aria-label="Basic outlined example">
+                            <button type="button" className="btn btn-outline-primary shadow" onClick={()=>{editRow(user)}}>Editar</button>
+                            <button type="button" className="btn btn-outline-primary shadow" onClick={()=>{deleteUser(user.id)}}>Elminar</button>
+                            <button onClick={()=>{chartsUser(user); openModalCharts()}} type="button" className="btn btn-outline-primary shadow">Grafico</button>
+                        </div>
+                    </td>
+                </tr>
+            )})
+    ):(
+                <tr>
+                    <td>No users</td>
+                </tr>        
+    )
+)
